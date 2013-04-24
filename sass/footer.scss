@@ -1,0 +1,211 @@
+@import "base";
+
+// styles for footer
+.footer{
+	max-width: 1800px;
+	margin: 0 auto;
+	color: #b4cad8;
+	background: url(../img/footer_bg.jpg) repeat-x 50% 0 #27417a;
+	min-height: 150px;
+	overflow: hidden;
+	@include transform(translate3d(0,0,0));
+	a{
+		color: #54bdff;
+	}
+}
+
+.footer__left{
+	width: 680px;
+	float: left;
+	margin-top: 53px;
+}
+	.footer__col{
+		width: 276px;
+		float: left;
+		&:first-child{
+			margin-right: 105px;
+		}
+	}
+	.footer__also{
+		font-family: "Trebuchet MS", "Helvetica CY", sans-serif;
+		font-size: 13px;
+		margin-top: 46px;
+		&:first-child{
+			margin-top: 0;
+		}
+	}
+	.footer__heading{
+		font-size: 17px;
+		color: #fff;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: 0.85em;
+	}
+	.footer__media{
+		display: inline-block;
+		margin-right: 6px;
+		img{
+			display: block;
+			@include border-radius(10px);
+			margin-bottom: 0.5em;
+			max-width: 79px;
+			min-height: 55px;
+		}
+	}
+	.footer__info{
+		margin-bottom: 0.2em;
+		margin-right: 60px;
+	}
+.footer__right{
+	width: 340px;
+	float: right;
+	margin-top: 36px;
+	margin-right: 4px;
+}
+
+.footer__feedback{
+		position: relative;
+		width: 264px;
+		float: right;
+		font-family: "Trebuchet MS", "Helvetica CY", sans-serif;
+		&:before{
+			position: absolute;
+			z-index: 3;
+			bottom: -2px;
+			right: -2px;
+			width: 264px;
+			height: 100%;
+			content: "";
+			background: #fff;
+			@include box-shadow(2px 3px 5px rgba(1,1,1,.16));
+		}
+		&:after{
+			position: absolute;
+			z-index: 2;
+			bottom: -4px;
+			right: -4px;
+			width: 264px;
+			height: 100%;
+			content: "";
+			background: #fff;
+		}
+		input{
+			outline: none;
+			position: absolute;
+		}
+		form{
+			@extend %clr;
+			margin-top: 16px;
+			position: relative;
+		}
+}
+	.footer__feedback-holder{
+		position: relative;
+		z-index: 3;
+		padding: 11px 19px 61px;
+		background-color: #fffdef;
+		border: 4px solid #fff;
+		@include box-shadow(2px 3px 5px rgba(1,1,1,.16), inset 0 0 16px rgba(1,1,1,.17));
+	}
+	.footer__feedback-heading{
+		//position: relative;
+		color: #212121;
+		font-size: 17px;
+		font-weight: bold;
+		margin-left: 28px;
+	}
+	.footer__cover-ico{
+		@include sized-sprite($icons, cover_ico);
+		position: absolute;
+		top: -6px;
+		left: 19px;
+		content: "";
+	}
+	.footer__feedback-info{
+		margin-top: 0.8em;
+		font-size: 13px;
+		color: #696969;
+	}
+
+	.footer__feedback-text{
+		@include border-radius(5px);
+		border: 1px solid #e1ddc8;
+		left: 0;
+		width: 190px;
+		padding-left: 9px;
+		font-style: italic;
+		color: #a4a4a4;
+		font-size: 12px;
+		height: 31px;
+	}
+	.footer__feedback-submit{
+		height: 33px;
+		@include border-radius(0 5px 5px 0);
+		border: 1px solid #e1ddc8;
+		border-left: 0;
+		right: 0;
+		width: 31px;
+		cursor: pointer;
+		color: #d72e1b;
+		font-size: 14px;
+		font-weight: bold;
+		@include background-image(linear-gradient(#fcfcfc, #eae9e5));
+		&:hover{
+			@include background-image(linear-gradient(#eae9e5, #fcfcfc));
+		}
+	}
+
+	.footer__primary{
+		clear: both;
+		@extend %clr;
+		font-size: 12px;
+		font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+		padding-top: 60px;
+		margin-bottom: 31px;
+		&.footer__primary_alt{
+			padding-top: 42px;
+		}
+	}
+		.footer__nav{
+			float: left;
+			width: 754px;
+			margin-top: 16px;
+			ul{
+				list-style: none;
+			}
+			li{
+				display: inline-block;
+				position: relative;
+				margin-right: 8px;
+				&:before{
+					position: absolute;
+					top: -3px;
+					left: -8px;
+					@include sized-sprite($icons, border);
+					content: "";
+				}
+				&:first-child{
+					&:before{
+						content: none;
+					}
+				}
+			}
+		}
+		.footer__share{
+			color: #8c8c8c;
+			float: left;
+			width: 270px;
+			height: 26px;
+			line-height: 26px;
+			margin-top: 11px;
+			a{
+				margin-left: 6px;
+				display: inline-block;
+				vertical-align: top;
+				@extend %hide-text;
+					&.share_fb{@include sized-sprite($icons, fb);}
+					&.share_tw{@include sized-sprite($icons, tw);}
+					&.share_gp{@include sized-sprite($icons, gp);}
+					&.share_vk{@include sized-sprite($icons, vk);}
+			}
+		}

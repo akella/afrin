@@ -1,0 +1,71 @@
+.nav { position: relative; max-width: 1800px; margin: 0 auto; background-color: #217ab0; height: 52px; line-height: 52px; color: #fff; font-size: 16px; }
+.nav:before { background: url(../img/nav_top.png) repeat-x; position: absolute; top: -3px; left: 0; content: ""; height: 3px; width: 100%; }
+.nav:after { background: url(../img/nav_bottom.png) repeat-x; position: absolute; bottom: -3px; left: 0; content: ""; height: 3px; width: 100%; }
+.nav a { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.25); color: inherit; display: inline-block; height: 100%; text-decoration: none; }
+.nav a:hover { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.85); }
+.nav li { display: inline-block; position: relative; padding: 0 9px; }
+
+.nav_index { z-index: 2; }
+
+.js-dropdown ul { position: absolute; top: 50px; left: 0; line-height: 1.4; z-index: 300; }
+.js-dropdown li { -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; }
+.js-dropdown li:hover { background: #df3a51; }
+.js-dropdown li:hover:before { content: ""; position: absolute; top: -3px; left: 0; height: 3px; width: 100%; background: url(../img/menu_arr_top.png) repeat-x white; }
+.js-dropdown li:hover:after { content: ""; position: absolute; bottom: -3px; left: 0; height: 3px; width: 100%; z-index: 200; background: url(../img/menu_arr_bottom.png) repeat-x white; }
+.js-dropdown li li { width: 100%; -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; opacity: 0; -webkit-transform: translate(0, 0) rotate(0deg); -moz-transform: translate(0, 0) rotate(0deg); -ms-transform: translate(0, 0) rotate(0deg); -o-transform: translate(0, 0) rotate(0deg); transform: translate(0, 0) rotate(0deg); line-height: 1.4; padding: 0; background: #df3a51 !important; }
+.js-dropdown li li a { margin: 5px; padding: 5px 0; border-bottom: 1px solid #f0597d; display: block; }
+
+body .is-open { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; z-index: 1; }
+body .is-open li { display: list-item; list-style: circle; -webkit-transform: translate(-1px, 0) rotate(5deg); -moz-transform: translate(-1px, 0) rotate(5deg); -ms-transform: translate(-1px, 0) rotate(5deg); -o-transform: translate(-1px, 0) rotate(5deg); transform: translate(-1px, 0) rotate(5deg); -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; background: #df3a51; opacity: 1; }
+body .is-open li:hover:before, body .is-open li:hover:after { content: none !important; }
+body .is-open li:hover:last-child:after { content: "" !important; position: absolute; bottom: -3px; left: 0; height: 3px; width: 100%; background: url(../img/menu_arr_bottom.png) repeat-x; }
+body .is-open li:last-child:after { content: ""; position: absolute; bottom: -3px; left: 0; height: 3px; width: 100%; background: url(../img/menu_arr_bottom.png) repeat-x; }
+body .is-open li + li { -webkit-transform: translate(-7px, 0) rotate(10deg); -moz-transform: translate(-7px, 0) rotate(10deg); -ms-transform: translate(-7px, 0) rotate(10deg); -o-transform: translate(-7px, 0) rotate(10deg); transform: translate(-7px, 0) rotate(10deg); }
+body .is-open li + li + li { -webkit-transform: translate(-20px, 10px) rotate(20deg); -moz-transform: translate(-20px, 10px) rotate(20deg); -ms-transform: translate(-20px, 10px) rotate(20deg); -o-transform: translate(-20px, 10px) rotate(20deg); transform: translate(-20px, 10px) rotate(20deg); }
+
+.cd-dropdown, .cd-select { position: relative; width: 300px; margin: 20px auto; display: block; }
+
+.cd-dropdown > span { width: 100%; height: 60px; line-height: 60px; color: #fff; font-weight: normal; font-size: 16px; background: #df3a51; display: block; padding: 0 50px 0 30px; position: relative; cursor: pointer; }
+
+.cd-dropdown > span:after { content: '\25BC'; position: absolute; right: 0px; top: 15%; width: 50px; text-align: center; font-size: 12px; padding: 10px; height: 70%; line-height: 24px; /*border-left: 1px solid #ddd;*/ }
+
+.cd-dropdown.cd-active > span:after { content: '\25B2'; }
+
+.cd-dropdown ul { list-style-type: none; margin: 0; padding: 0; display: block; position: relative; }
+
+.cd-dropdown ul li { display: block; }
+.cd-dropdown ul li:last-child:after { content: ""; position: absolute; height: 3px; width: 350px; background-color: #000; }
+
+.cd-dropdown ul li span { width: 100%; background: #df3a51; line-height: 60px; padding: 0 5px 0 75px; display: block; color: #fff; cursor: pointer; font-weight: 700; }
+
+.cd-dropdown > span, .cd-dropdown ul li span { -webkit-backface-visibility: hidden; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.cd-dropdown ul li span { border-bottom: 1px solid #f0597d; }
+
+.cd-dropdown > span span[class^="icon-"], .cd-dropdown > span span[class*=" icon-"] { padding: 0 30px 0 45px; }
+
+/* Select fallback styling */
+/*.cd-select {
+	border: 1px solid #ddd;
+}*/
+/*.cd-dropdown > span,
+.cd-dropdown ul li:nth-last-child(-n+3) span {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}*/
+.cd-dropdown ul { position: absolute; top: 0px; width: 100%; }
+
+.cd-dropdown ul li { position: absolute; width: 100%; }
+
+.cd-active.cd-dropdown > span { color: #fff; }
+
+/*.cd-active.cd-dropdown > span,
+.cd-active.cd-dropdown ul li span {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}*/
+.cd-active.cd-dropdown ul li { -webkit-transform-origin: -200% 50%; -moz-transform-origin: -200% 50%; -o-transform-origin: -200% 50%; -ms-transform-origin: -200% 50%; transform-origin: -200% 50%; }
+
+.cd-active.cd-dropdown ul li span { -webkit-transition: all 0.2s linear 0s; -moz-transition: all 0.2s linear 0s; -ms-transition: all 0.2s linear 0s; -o-transition: all 0.2s linear 0s; transition: all 0.2s linear 0s; }
+
+.cd-active.cd-dropdown ul li span:hover { background: #df3a51; color: #fff; }
+
+.fleft { float: left; width: 49%; min-width: 300px; }

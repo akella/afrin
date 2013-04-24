@@ -1,0 +1,91 @@
+.header__logo a { font: 0/0 a; text-shadow: none; color: transparent; }
+
+.highlight .wrapper { *zoom: 1; }
+.highlight .wrapper:before, .highlight .wrapper:after { content: " "; display: table; }
+.highlight .wrapper:after { clear: both; }
+
+.header { position: relative; background: url(../img/bg.jpg) no-repeat 50% 0%; height: 195px; }
+.header.header_alt { position: relative; background: url(../img/bg_alt1.png) no-repeat 50% 0%; height: 848px; }
+
+.header__top { height: 78px; }
+
+.header__logo a { background: url('../img/icons-s63054222c8.png') 0 0 no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 2px; z-index: 2; }
+
+.header__lang { position: absolute; top: 30px; right: -37px; color: #67add9; font-size: 16px; }
+.header__lang a { color: #1d709e; position: relative; margin-right: 30px; }
+.header__lang a.selected { color: #222; cursor: default; }
+.header__lang a.selected:hover { text-decoration: none; }
+.header__lang a:before { width: 1px; height: 26px; background: #67add9; content: ""; position: absolute; top: -4px; left: -14px; }
+.header__lang a:first-child:before { content: none; }
+
+.cycle { position: relative; top: 293px; right: 220px; }
+
+.highlight { position: relative; max-width: 1800px; width: 100%; height: 100%; font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-shadow: 0 0 13px white; color: #323232; font-size: 22px; }
+.highlight .wrapper .highlight__announce { float: left; width: 503px; margin-top: 56px; }
+.highlight .wrapper .bottles { position: absolute; bottom: 20px; right: 0px; margin-right: 45px; }
+.highlight a { font-size: 17px; }
+.highlight .highlight__picture { margin-top: 230px; float: right; width: 443px; height: 471px; background: url(../img/bg_alt2.png) 0 0 no-repeat; z-index: 3; }
+
+.highlight__heading { position: absolute; top: 0px; left: 275px; padding-left: 5px; font-family: 'HeliosLight', Arial, sans-serif; font-weight: normal; font-style: italic; color: #0a529d; font-size: 57px; margin-bottom: 0.25em; }
+
+.drop { position: absolute; top: 80px; left: 23%; margin-bottom: -76px; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; z-index: 0; }
+
+.drop2 { top: 90px; left: 14%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
+@media only screen and (max-width: 1350px) { .drop2 { display: none; } }
+
+.drop3 { top: -400px; left: 33%; -webkit-animation-duration: 12s; animation-duration: 12s; }
+
+.drop4 { left: 5%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 4s; -o-animation-delay: 4s; animation-delay: 4s; }
+@media only screen and (max-width: 1350px) { .drop4 { display: none; } }
+
+.drop5 { left: 39%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 15s; -moz-animation-delay: 15s; -ms-animation-delay: 15s; -o-animation-delay: 15s; animation-delay: 15s; }
+
+.drop6 { left: 46%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
+@media only screen and (max-width: 1350px) { .drop6 { display: none; } }
+
+.drop7 { left: 49%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; }
+
+.drop8 { left: 51%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 7s; -moz-animation-delay: 7s; -ms-animation-delay: 7s; -o-animation-delay: 7s; animation-delay: 7s; }
+@media only screen and (max-width: 1350px) { .drop8 { display: none; } }
+
+.drop9 { left: 56%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
+
+.drop10 { left: 61%; -webkit-animation: bubbles 18s linear infinite; -moz-animation: bubbles 18s linear infinite; -ms-animation: bubbles 18s linear infinite; -o-animation: bubbles 18s linear infinite; animation: bubbles 18s linear infinite; }
+@media only screen and (max-width: 1350px) { .drop10 { display: none; } }
+
+.drop11 { left: 69%; -webkit-animation: bubbles 18s linear infinite; -moz-animation: bubbles 18s linear infinite; -ms-animation: bubbles 18s linear infinite; -o-animation: bubbles 18s linear infinite; animation: bubbles 18s linear infinite; }
+
+.drop12 { left: 71%; -webkit-animation: bubbles 14s linear infinite; -moz-animation: bubbles 14s linear infinite; -ms-animation: bubbles 14s linear infinite; -o-animation: bubbles 14s linear infinite; animation: bubbles 14s linear infinite; }
+@media only screen and (max-width: 1350px) { .drop12 { display: none; } }
+
+.drop13 { left: 76%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
+
+.drop14 { left: 83%; -webkit-animation: bubbles 14s linear infinite; -moz-animation: bubbles 14s linear infinite; -ms-animation: bubbles 14s linear infinite; -o-animation: bubbles 14s linear infinite; animation: bubbles 14s linear infinite; -webkit-animation-delay: 18s; -moz-animation-delay: 18s; -ms-animation-delay: 18s; -o-animation-delay: 18s; animation-delay: 18s; }
+@media only screen and (max-width: 1350px) { .drop14 { display: none; } }
+
+.drop15 { left: 88%; -webkit-animation: bubbles 25s linear infinite; -moz-animation: bubbles 25s linear infinite; -ms-animation: bubbles 25s linear infinite; -o-animation: bubbles 25s linear infinite; animation: bubbles 25s linear infinite; -webkit-animation-delay: 5s; -moz-animation-delay: 5s; -ms-animation-delay: 5s; -o-animation-delay: 5s; animation-delay: 5s; }
+
+@-moz-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
+  25% { margin-left: -40px; }
+  50% { margin-left: 40px; }
+  100% { top: 100px; margin-left: 0; } }
+
+@-webkit-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
+  25% { margin-left: -40px; }
+  50% { margin-left: 40px; }
+  100% { top: 100px; margin-left: 0; } }
+
+@-o-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
+  25% { margin-left: -40px; }
+  50% { margin-left: 40px; }
+  100% { top: 100px; margin-left: 0; } }
+
+@-ms-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
+  25% { margin-left: -40px; }
+  50% { margin-left: 40px; }
+  100% { top: 100px; margin-left: 0; } }
+
+@keyframes bubbles { 0% { top: 850px; margin-left: 0; }
+  25% { margin-left: -40px; }
+  50% { margin-left: 40px; }
+  100% { top: 100px; margin-left: 0; } }

@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
+
+html { background: url(../img/bg-mn1.png) no-repeat 50% 0; }
+
+body { font-family: Arial,sans-serif; font-weight: normal; font-size: 12px; line-height: 1.3; min-width: 1050px; padding-bottom: 100px; }
+
+a img, fieldset { border: none; }
+
+a { color: #00919e; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.banner { position: fixed; bottom: 0; height: 5%; width: 100%; z-index: 100; background: #314F92; }
+.banner img { display: block; width: 100%; height: 100%; }
+
+.wrapper { position: relative; width: 1024px; margin: 0 auto; }

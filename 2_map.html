@@ -1,0 +1,181 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Контакты | Африн</title>
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<!-- YANDEX-MAP -->
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script src="http://yandex.st/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        var myMap,
+            myPlacemark;
+
+        function init(){
+            myMap = new ymaps.Map ("map", {
+                center: [50.449, 30.517],
+                zoom: 17
+            });
+        }
+    </script>
+	<!-- /YANDEX-MAP -->
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/common.js"></script>
+	<meta name="viewport" content="width=device-width"/>
+</head>
+<body>
+
+<!-- BEGIN header -->
+<header class="header">
+
+	<!-- BEGIN header__top -->
+	<div class="header__top">
+		<!-- BEGIN header__logo -->
+		<h1 class="header__logo">
+			<a href="#" title="Африн">A Free Nose</a>
+		</h1>
+		<!-- /END header__logo -->
+		<!-- BEGIN header__lang -->
+		<div class="header__lang">
+			<a href="#" class="selected ">Русский</a><a href="#">Українська</a>
+		</div>
+		<!-- /END header__lang -->
+	</div>
+	<!-- /END header__top -->
+
+<!-- BEGIN header__nav -->
+<nav class="nav">
+	<div class="wrapper">
+		<ul>
+			<li><a href="#">Семья Африн</a></li>
+			<li><a href="#">Специалистам</a></li>
+			<li><a href="#">Помогает вам быть здоровыми</a></li>
+			<li><a href="#">Мамина страничка</a></li>
+			<li><a href="#">История носов</a></li>
+			<li><a href="#">Консультации специалиста</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- /END header__nav -->
+
+</header>
+<!-- /END header -->
+
+<!-- BEGIN content -->
+<div class="content">
+	<div class="wrapper">
+		<!-- BEGIN breadcrumbs -->
+		<div class="breadcrumbs">
+			<nav>
+				<a href="#"><b>Главная</b></a>
+				<a href="#" class="current"><b>Контакты</b></a>
+			</nav>
+		</div>
+		<!-- /END breadcrumbs -->
+		<h2 class="content__title">Контакты</h2>
+		<div class="main-office">Главный офис: <a href="#" class="btn">Показать</a></div>
+	</div>
+
+	<!-- BEGIN map -->
+	<div class="map">
+		<div id="map" style="width: 100%; height: 702px"></div>
+	</div>
+	<!-- /END map -->
+	<div class="wrapper">
+		<!-- BEGIN location -->
+		<div class="location">
+			<div class="location__search">
+				<form action="/" method="/">
+					<input type="text" class="location__search-text" name="/" id="/" placeholder="Введите область">
+					<input type="submit" class="location__search-submit btn" value="Показать">
+				</form>
+			</div>
+			<div class="location__list">
+				<ul>
+					<li><a href="#">Киевская обл.</a>
+						<ul>
+							<li><a href="#">Киев</a></li>
+							<li><a href="#">Белая церковь</a></li>
+							<li><a class="js-active" href="#">Бровары</a>
+								<ul>
+									<li><a href="#">ул. Проспект победы 87/4</a></li>
+									<li><a href="#">ул. Победы 87/4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Киев</a></li>
+							<li><a href="#">Белая церковь</a></li>
+							<li><a href="#">Бровары</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Винницкая обл.</a></li>
+					<li><a href="#">Львовская обл.</a></li>
+					<li><a href="#">Кировоградская обл.</a></li>
+					<li><a href="#">Ивано-Франковская обл.</a></li>
+				</ul>
+			</div>
+
+			<!-- BEGIN share -->
+			<div class="share">
+				<a href="#"><img src="img/share_fb.png" alt="fb"></a>
+				<a href="#"><img src="img/share_tw.png" alt="tw"></a>
+				<a href="#"><img src="img/share_gp.png" alt="gp"></a>
+				<a href="#"><img src="img/share_vk.png" alt="vk"></a>
+			</div>
+			<!-- /END share -->
+		</div>
+		<!-- /END location -->
+
+	</div>
+</div>
+<!-- /END content -->
+
+<!-- BEGIN footer -->
+<div class="footer">
+	<div class="wrapper">
+
+		<!-- BEGIN footer__primary -->
+		<div class="footer__primary footer__primary_alt">
+
+					<!-- BEGIN footer__nav -->
+					<div class="footer__nav">
+						<ul>
+							<li><a href="#">О препарате</a></li>
+							<li><a href="#">Профилактика и лечение насморка</a></li>
+							<li><a href="#">Детский насморк</a></li>
+							<li><a href="#">Для специалистов</a></li>
+							<li><a href="#">Вопросы и ответы</a></li>
+						</ul>
+					</div>
+					<!-- /END footer__nav -->
+					<!-- BEGIN footer__share -->
+					<div class="footer__share">
+						Поделиться:
+						<a class="sahre share_fb" href="#">Facebook</a>
+						<a class="sahre share_tw" href="#">Twitter</a>
+						<a class="sahre share_gp" href="#">Google+</a>
+						<a class="sahre share_vk" href="#">ВКонтакте</a>
+					</div>
+					<!-- /END footer__share -->
+		</div>
+		<!-- /END footer__primary -->
+
+	</div>
+</div>
+<!-- /END footer -->
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

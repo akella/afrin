@@ -1,0 +1,256 @@
+@import "base";
+
+// styles for header
+.header{
+	position: relative;
+	background: url(../img/bg.jpg) no-repeat  50% 0%;
+	height: 195px;
+	&.header_alt{
+		position: relative;
+		background: url(../img/bg_alt1.png) no-repeat  50% 0%;
+		height: 848px;
+	}
+
+}
+
+	// wrapper
+	.header__top{
+		height: 78px;
+		@extend %site;
+	}
+		// logotype
+		.header__logo{
+			a{
+				@extend %hide-text;
+				@include sized-sprite($icons, logo);
+				position: absolute;
+				top: 24px;
+				left: 2px;
+				z-index: 2;
+			}
+		}
+
+		// lang menu
+		.header__lang{
+			position: absolute;
+			top: 30px;
+			right: -37px;
+			color: #67add9;
+			font-size: 16px;
+			a{
+				color: #1d709e;
+				position: relative;
+				margin-right: 30px;
+				&.selected{
+					color: #222;
+					cursor: default;
+					&:hover{text-decoration: none;}
+				}
+				&:before{
+					width: 1px;
+					height: 26px;
+					background: #67add9;
+					content: "";
+					position: absolute;
+					top: -4px;
+					left: -14px;
+				}
+				&:first-child{
+					&:before{
+						content: none;
+					}
+				}
+			}
+		}
+
+// cycle
+
+.cycle{
+	position: relative;
+	top: 293px;
+	right: 220px;
+}
+
+
+// highlight
+.highlight{
+	position: relative;
+	max-width: 1800px;
+	width: 100%;
+	height: 100%;
+	@extend %site;
+	font-family: "Trebuchet MS", "Helvetica CY", sans-serif;
+	@include text-shadow(0 0 13px #fff);
+	color: #323232;
+	font-size: 22px;
+	.wrapper{
+		@extend %clr;
+		// position: absolute;
+		// top: 46px;
+		// left: 160px;
+		// width: 503px;
+		.highlight__announce{
+			float: left;
+			width: 503px;
+			margin-top: 56px;
+		}
+		.bottles{
+			position: absolute;
+			bottom: 20px;
+			right: 0px;
+			margin-right: 45px;
+		}
+	}
+	a{
+		font-size: 17px;
+	}
+	.highlight__picture{
+		margin-top: 230px;
+		float: right;
+		width: 443px;
+		height: 471px;
+		background: url(../img/bg_alt2.png) 0 0 no-repeat;
+		z-index: 3;
+	}
+}
+.highlight__heading{
+	position: absolute;
+	top: 0px;
+	left: 275px;
+	padding-left: 5px;
+	font-family:'HeliosLight', Arial, sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #0a529d;
+	font-size: 57px;
+	margin-bottom: 0.25em;
+}
+// .highlight_index{
+// 	.wrapper-container{
+// 		overflow: hidden;
+// 		width: 1024px;
+// 		margin: 0 auto;
+// 	}
+// 	.wrapper_index{
+// 		float: right;
+// 		width: 503px;
+// 		margin-top: 46px;
+// 	}
+// }
+
+
+// styles fot drops
+.drop{
+	position: absolute;
+	top: 80px;
+	left: 23%;
+	margin-bottom: -76px;
+	@include animation(bubbles 20s linear infinite);
+    z-index: 0;
+}
+.drop2{
+	top: 90px;
+	left: 14%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(10s);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop3{
+	top: -400px;
+	left: 33%;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+}
+.drop4{
+	left: 5%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(4s);
+	@include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop5{
+	left: 39%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(15s);
+}
+.drop6{
+	left: 46%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(3s);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop7{
+	left: 49%;
+	@include animation(bubbles 20s linear infinite);
+}
+.drop8{
+	left: 51%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(7s);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop9{
+	left: 56%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(10s);
+}
+.drop10{
+	left: 61%;
+	@include animation(bubbles 18s linear infinite);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop11{
+	left: 69%;
+	@include animation(bubbles 18s linear infinite);
+}
+.drop12{
+	left: 71%;
+	@include animation(bubbles 14s linear infinite);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop13{
+	left: 76%;
+	@include animation(bubbles 20s linear infinite);
+	@include animation-delay(3s);
+}
+.drop14{
+	left: 83%;
+	@include animation(bubbles 14s linear infinite);
+	@include animation-delay(18s);
+    @include respond-to(notebook) {
+        display: none;
+    }
+}
+.drop15{
+	left: 88%;
+    @include animation(bubbles 25s linear infinite);
+    @include animation-delay(5s);
+}
+
+@include keyframes(bubbles) {
+   0% {
+      top: 850px;
+      margin-left: 0;
+   }
+   25%{
+   	margin-left: -40px;
+   }
+   50%{
+   	margin-left: 40px;
+   }
+   100% {
+      top:100px;
+      margin-left: 0;
+   }
+}

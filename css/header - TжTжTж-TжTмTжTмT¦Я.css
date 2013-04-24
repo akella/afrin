@@ -1,0 +1,27 @@
+.header__logo a { font: 0/0 a; text-shadow: none; color: transparent; }
+
+.header { position: relative; background: url(../img/bg.jpg) no-repeat 50% 0%; height: 195px; }
+.header.header_alt { position: relative; background: url(../img/bg_alt.jpg) no-repeat 50% 0%; height: 848px; }
+
+.header__top { height: 78px; }
+
+.header__logo a { background: url('../img/icons-s5dc0727dd5.png') 0 0 no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 2px; }
+
+.header__lang { position: absolute; top: 30px; right: -37px; color: #67add9; font-size: 16px; }
+.header__lang a { color: #1d709e; position: relative; margin-right: 30px; }
+.header__lang a.selected { color: #222; cursor: default; }
+.header__lang a.selected:hover { text-decoration: none; }
+.header__lang a:before { width: 1px; height: 26px; background: #67add9; content: ""; position: absolute; top: -4px; left: -14px; }
+.header__lang a:first-child:before { content: none; }
+
+.nav { position: relative; background-color: #217ab0; height: 52px; line-height: 52px; color: #fff; font-size: 16px; text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.75); }
+.nav:before { background: url(../img/nav_top.png) repeat-x; position: absolute; top: -3px; left: 0; content: ""; height: 3px; width: 100%; }
+.nav:after { background: url(../img/nav_bottom.png) repeat-x; position: absolute; bottom: -3px; left: 0; content: ""; height: 3px; width: 100%; }
+.nav a { color: inherit; }
+.nav ul { list-style: none; }
+.nav li { display: inline-block; position: relative; margin-right: 17px; }
+
+.highlight { font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-shadow: 0 0 13px white; color: #323232; font-size: 22px; }
+.highlight .wrapper { width: 503px; position: absolute; top: 46px; right: -9px; }
+.highlight .highlight__heading { font-family: "HeliosLight", Arial, sans-serif; font-weight: normal; font-style: italic; color: #0a529d; font-size: 57px; margin-bottom: 0.25em; }
+.highlight a { font-size: 17px; }
