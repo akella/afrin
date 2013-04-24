@@ -3,7 +3,7 @@
 .nav:after { background: url(../img/nav_bottom.png) repeat-x; position: absolute; bottom: -3px; left: 0; content: ""; height: 3px; width: 100%; }
 .nav a { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.25); color: inherit; display: inline-block; height: 100%; text-decoration: none; }
 .nav a:hover { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.85); }
-.nav li { display: inline-block; position: relative; padding: 0 9px; }
+.nav li { display: inline-block; position: relative; padding: 0 8px; }
 
 .nav_index { z-index: 2; }
 
