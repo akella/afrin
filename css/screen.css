@@ -49,7 +49,7 @@ a:hover { text-decoration: underline; }
 .header__lang a:before { width: 1px; height: 26px; background: #67add9; content: ""; position: absolute; top: -4px; left: -14px; }
 .header__lang a:first-child:before { content: none; }
 
-.cycle { position: relative; top: 154px; right: 120px; }
+.cycle { position: relative; top: 200px; right: 134px; }
 
 .highlight { position: relative; max-width: 1800px; width: 100%; height: 100%; font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-shadow: 0 0 13px white; color: #323232; font-size: 22px; }
 .highlight .wrapper .highlight__announce { float: left; width: 503px; margin-top: 16px; }
