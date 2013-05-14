@@ -13,3 +13,5 @@ a:hover { text-decoration: underline; }
 .banner img { display: block; width: 100%; height: 100%; }
 
 .wrapper { position: relative; width: 1024px; margin: 0 auto; }
+
+.content_allerg { background: red url(../img/bga.jpg) no-repeat 50% 100%; }

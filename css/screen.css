@@ -20,6 +20,8 @@ a:hover { text-decoration: underline; }
 
 .wrapper, .header__top, .highlight, .content .wrapper { position: relative; width: 1024px; margin: 0 auto; }
 
+.content_allerg { background: red url(../img/bga.jpg) no-repeat 50% 100%; }
+
 .header__logo a, .footer__share a, .btn_loading { font: 0/0 a; text-shadow: none; color: transparent; }
 
 .highlight .wrapper, .footer__feedback form, .footer__primary, .popup__check, .content .wrapper, .share, .share_article a { *zoom: 1; }
