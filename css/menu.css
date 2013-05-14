@@ -7,6 +7,16 @@
 
 .nav_index { z-index: 2; }
 
+.nav-inner { width: 1024px; margin: 0 auto; }
+.nav-inner ul { list-style-type: none; }
+.nav-inner .nav-inner__item { position: relative; display: inline-block; line-height: 64px; padding: 0 10px; vertical-align: middle; color: #fff; font-size: 16px; }
+.nav-inner .nav-inner__item:after { content: ""; position: absolute; top: 20px; right: 0px; height: 27px; width: 1px; background: #86bde1; }
+.nav-inner .nav-inner__item:last-child:after { content: ""; display: none; }
+.nav-inner .nav-inner__item_act { font-weight: bold; }
+.nav-inner .nav-inner__item_act a { color: #09427d; }
+.nav-inner a { color: #1d709e; display: block; }
+.nav-inner a:hover { text-decoration: none; text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.25); }
+
 .js-dropdown ul { position: absolute; top: 50px; left: 0; line-height: 1.4; z-index: 300; }
 .js-dropdown li { -moz-transition: all 0.3s linear; -o-transition: all 0.3s linear; -webkit-transition: all 0.3s linear; -ms-transition: all 0.3s linear; transition: all 0.3s linear; }
 .js-dropdown li:hover { background: #df3a51; }

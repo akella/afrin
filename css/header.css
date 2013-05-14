@@ -9,8 +9,11 @@
 
 .header__top { height: 78px; }
 
-.header__logo a { background: url('../img/icons-s57477ccd44.png') 0 -68px no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 137px; z-index: 2; }
+.header__logo a { background: url('../img/icons-s57477ccd44.png') 0 -68px no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 0px; z-index: 2; }
 .header__logo a.logo-index { top: 10px; left: 2px; background: url('../img/icons-s57477ccd44.png') 0 0 no-repeat; width: 126px; height: 58px; }
+
+.header__top_alt .header__logo a { left: 137px; }
+.header__top_alt .header__logo a.logo-index { left: 2px; }
 
 .header__lang { position: absolute; top: 30px; right: -37px; color: #67add9; font-size: 16px; }
 .header__lang a { color: #1d709e; position: relative; margin-right: 30px; }

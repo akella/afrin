@@ -25,13 +25,21 @@
 				@include sized-sprite($icons, logo);
 				position: absolute;
 				top: 24px;
-				left: 137px;
+				left: 0px;
 				z-index: 2;
 			}
 			a.logo-index{
 				top: 10px;
 				left: 2px;
 				@include sized-sprite($icons, logo-index);
+			}
+		}
+		.header__top_alt .header__logo{
+			a{
+				left: 137px;
+			}
+			a.logo-index{
+				left: 2px;
 			}
 		}
 

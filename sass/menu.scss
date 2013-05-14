@@ -48,6 +48,53 @@
 	z-index: 2;
 }
 
+// nav-inner
+
+.nav-inner{
+	width: 1024px;
+	margin: 0 auto;
+	ul{
+		list-style-type: none;
+	}
+	.nav-inner__item{
+		position: relative;
+		display: inline-block;
+		line-height: 64px;
+		padding: 0 10px;
+		vertical-align: middle;
+		color: #fff;
+		font-size: 16px;
+		&:after{
+			content: "";
+			position: absolute;
+			top: 20px;
+			right: 0px;
+			height: 27px;
+			width: 1px;
+			background: #86bde1;
+		}
+		&:last-child{
+			&:after{
+				content: "";
+				display: none;
+			}
+		}
+	}
+	.nav-inner__item_act{
+		font-weight: bold;
+		a{
+			color: #09427d;
+		}
+	}
+	a{
+		color: #1d709e;
+		display: block;
+		&:hover{
+			text-decoration: none;
+			@include text-shadow(0 -1px 0 rgba(1,1,1,.25));
+		}
+	}
+}
 
 // dropdown
 // .nav {
