@@ -261,3 +261,22 @@
       
    }
 }
+
+.header_alt1{
+	.logo-index{
+		display: none;
+	}
+	.header__logo{
+		a{
+			left: 0;
+		}
+	}
+	.highlight__heading{
+		position: absolute;
+		top: 150px;
+		left: 0px;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 50px;
+	}
+}
