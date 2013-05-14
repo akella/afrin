@@ -252,10 +252,11 @@
    }
    50%{
    	margin-left: 40px;
+   	opacity: 0;
    }
    100% {
       top:100px;
       margin-left: 0;
-      opacity: 0;
+      
    }
 }
