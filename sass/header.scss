@@ -169,7 +169,7 @@
 }
 .drop4{
 	left: 5%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 	@include animation-delay(4s);
 	@include respond-to(notebook) {
         display: none;
@@ -177,12 +177,12 @@
 }
 .drop5{
 	left: 39%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 	@include animation-delay(15s);
 }
 .drop6{
 	left: 46%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 	@include animation-delay(3s);
     @include respond-to(notebook) {
         display: none;
@@ -190,11 +190,11 @@
 }
 .drop7{
 	left: 49%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 }
 .drop8{
 	left: 51%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 	@include animation-delay(7s);
     @include respond-to(notebook) {
         display: none;
@@ -202,19 +202,19 @@
 }
 .drop9{
 	left: 56%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 10s linear infinite);
 	@include animation-delay(10s);
 }
 .drop10{
 	left: 61%;
-	@include animation(bubbles 18s linear infinite);
+	@include animation(bubbles 13s linear infinite);
     @include respond-to(notebook) {
         display: none;
     }
 }
 .drop11{
 	left: 69%;
-	@include animation(bubbles 18s linear infinite);
+	@include animation(bubbles 12s linear infinite);
 }
 .drop12{
 	left: 71%;
@@ -225,12 +225,12 @@
 }
 .drop13{
 	left: 76%;
-	@include animation(bubbles 20s linear infinite);
+	@include animation(bubbles 14s linear infinite);
 	@include animation-delay(3s);
 }
 .drop14{
 	left: 83%;
-	@include animation(bubbles 14s linear infinite);
+	@include animation(bubbles 9s linear infinite);
 	@include animation-delay(18s);
     @include respond-to(notebook) {
         display: none;
@@ -238,7 +238,7 @@
 }
 .drop15{
 	left: 88%;
-    @include animation(bubbles 25s linear infinite);
+    @include animation(bubbles 15s linear infinite);
     @include animation-delay(5s);
 }
 
@@ -252,11 +252,12 @@
    }
    50%{
    	margin-left: 40px;
-   	opacity: 0;
+   	
    }
    100% {
-      top:100px;
+      top:400px;
       margin-left: 0;
+      opacity: 0;
       
    }
 }

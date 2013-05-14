@@ -40,57 +40,57 @@
 
 .drop3 { top: -400px; left: 33%; -webkit-animation-duration: 12s; animation-duration: 12s; }
 
-.drop4 { left: 5%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 4s; -o-animation-delay: 4s; animation-delay: 4s; }
+.drop4 { left: 5%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 4s; -o-animation-delay: 4s; animation-delay: 4s; }
 @media only screen and (max-width: 1350px) { .drop4 { display: none; } }
 
-.drop5 { left: 39%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 15s; -moz-animation-delay: 15s; -ms-animation-delay: 15s; -o-animation-delay: 15s; animation-delay: 15s; }
+.drop5 { left: 39%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 15s; -moz-animation-delay: 15s; -ms-animation-delay: 15s; -o-animation-delay: 15s; animation-delay: 15s; }
 
-.drop6 { left: 46%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
+.drop6 { left: 46%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
 @media only screen and (max-width: 1350px) { .drop6 { display: none; } }
 
-.drop7 { left: 49%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; }
+.drop7 { left: 49%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; }
 
-.drop8 { left: 51%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 7s; -moz-animation-delay: 7s; -ms-animation-delay: 7s; -o-animation-delay: 7s; animation-delay: 7s; }
+.drop8 { left: 51%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 7s; -moz-animation-delay: 7s; -ms-animation-delay: 7s; -o-animation-delay: 7s; animation-delay: 7s; }
 @media only screen and (max-width: 1350px) { .drop8 { display: none; } }
 
-.drop9 { left: 56%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
+.drop9 { left: 56%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
 
-.drop10 { left: 61%; -webkit-animation: bubbles 18s linear infinite; -moz-animation: bubbles 18s linear infinite; -ms-animation: bubbles 18s linear infinite; -o-animation: bubbles 18s linear infinite; animation: bubbles 18s linear infinite; }
+.drop10 { left: 61%; -webkit-animation: bubbles 13s linear infinite; -moz-animation: bubbles 13s linear infinite; -ms-animation: bubbles 13s linear infinite; -o-animation: bubbles 13s linear infinite; animation: bubbles 13s linear infinite; }
 @media only screen and (max-width: 1350px) { .drop10 { display: none; } }
 
-.drop11 { left: 69%; -webkit-animation: bubbles 18s linear infinite; -moz-animation: bubbles 18s linear infinite; -ms-animation: bubbles 18s linear infinite; -o-animation: bubbles 18s linear infinite; animation: bubbles 18s linear infinite; }
+.drop11 { left: 69%; -webkit-animation: bubbles 12s linear infinite; -moz-animation: bubbles 12s linear infinite; -ms-animation: bubbles 12s linear infinite; -o-animation: bubbles 12s linear infinite; animation: bubbles 12s linear infinite; }
 
 .drop12 { left: 71%; -webkit-animation: bubbles 14s linear infinite; -moz-animation: bubbles 14s linear infinite; -ms-animation: bubbles 14s linear infinite; -o-animation: bubbles 14s linear infinite; animation: bubbles 14s linear infinite; }
 @media only screen and (max-width: 1350px) { .drop12 { display: none; } }
 
-.drop13 { left: 76%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
+.drop13 { left: 76%; -webkit-animation: bubbles 14s linear infinite; -moz-animation: bubbles 14s linear infinite; -ms-animation: bubbles 14s linear infinite; -o-animation: bubbles 14s linear infinite; animation: bubbles 14s linear infinite; -webkit-animation-delay: 3s; -moz-animation-delay: 3s; -ms-animation-delay: 3s; -o-animation-delay: 3s; animation-delay: 3s; }
 
-.drop14 { left: 83%; -webkit-animation: bubbles 14s linear infinite; -moz-animation: bubbles 14s linear infinite; -ms-animation: bubbles 14s linear infinite; -o-animation: bubbles 14s linear infinite; animation: bubbles 14s linear infinite; -webkit-animation-delay: 18s; -moz-animation-delay: 18s; -ms-animation-delay: 18s; -o-animation-delay: 18s; animation-delay: 18s; }
+.drop14 { left: 83%; -webkit-animation: bubbles 9s linear infinite; -moz-animation: bubbles 9s linear infinite; -ms-animation: bubbles 9s linear infinite; -o-animation: bubbles 9s linear infinite; animation: bubbles 9s linear infinite; -webkit-animation-delay: 18s; -moz-animation-delay: 18s; -ms-animation-delay: 18s; -o-animation-delay: 18s; animation-delay: 18s; }
 @media only screen and (max-width: 1350px) { .drop14 { display: none; } }
 
-.drop15 { left: 88%; -webkit-animation: bubbles 25s linear infinite; -moz-animation: bubbles 25s linear infinite; -ms-animation: bubbles 25s linear infinite; -o-animation: bubbles 25s linear infinite; animation: bubbles 25s linear infinite; -webkit-animation-delay: 5s; -moz-animation-delay: 5s; -ms-animation-delay: 5s; -o-animation-delay: 5s; animation-delay: 5s; }
+.drop15 { left: 88%; -webkit-animation: bubbles 15s linear infinite; -moz-animation: bubbles 15s linear infinite; -ms-animation: bubbles 15s linear infinite; -o-animation: bubbles 15s linear infinite; animation: bubbles 15s linear infinite; -webkit-animation-delay: 5s; -moz-animation-delay: 5s; -ms-animation-delay: 5s; -o-animation-delay: 5s; animation-delay: 5s; }
 
 @-moz-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
   25% { margin-left: -40px; }
-  50% { margin-left: 40px; opacity: 0; }
-  100% { top: 100px; margin-left: 0; } }
+  50% { margin-left: 40px; }
+  100% { top: 400px; margin-left: 0; opacity: 0; } }
 
 @-webkit-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
   25% { margin-left: -40px; }
-  50% { margin-left: 40px; opacity: 0; }
-  100% { top: 100px; margin-left: 0; } }
+  50% { margin-left: 40px; }
+  100% { top: 400px; margin-left: 0; opacity: 0; } }
 
 @-o-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
   25% { margin-left: -40px; }
-  50% { margin-left: 40px; opacity: 0; }
-  100% { top: 100px; margin-left: 0; } }
+  50% { margin-left: 40px; }
+  100% { top: 400px; margin-left: 0; opacity: 0; } }
 
 @-ms-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
   25% { margin-left: -40px; }
-  50% { margin-left: 40px; opacity: 0; }
-  100% { top: 100px; margin-left: 0; } }
+  50% { margin-left: 40px; }
+  100% { top: 400px; margin-left: 0; opacity: 0; } }
 
 @keyframes bubbles { 0% { top: 850px; margin-left: 0; }
   25% { margin-left: -40px; }
-  50% { margin-left: 40px; opacity: 0; }
-  100% { top: 100px; margin-left: 0; } }
+  50% { margin-left: 40px; }
+  100% { top: 400px; margin-left: 0; opacity: 0; } }
