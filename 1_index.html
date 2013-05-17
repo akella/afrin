@@ -11,7 +11,13 @@
 	<meta name="viewport" content="width=device-width"/>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.cycle.all.js"></script>
+	<script src="js/unitpngfix.js"></script>
 	<script src="js/common.js"></script>
+	<style>
+.cycle img{
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader();
+}
+	</style>
 </head>
 <body>
 <div class="banner">
@@ -41,9 +47,9 @@
 	<!-- BEGIN header__top -->
 	<div class="header__top header__top_alt">
 		<div class="cycle">
-			<img src="img/bg_alt3.png" alt="">
-			<img src="img/bg_alt4.png" alt="">
-			<img src="img/bg_alt5.png" alt="">
+			<div><img src="img/bg_alt3.png" alt=""></div>
+			<div><img src="img/bg_alt4.png" alt=""></div>
+			<div><img src="img/bg_alt5.png" alt=""></div>
 		</div>
 		<!-- BEGIN header__logo -->
 		<h1 class="header__logo">
