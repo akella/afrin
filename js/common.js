@@ -1,6 +1,27 @@
 $(document).ready(function() {
 
+function sam() {
+	$(".drop").each(function(event) {
+		rand = Math.floor((Math.random()*10000));
+		var x = 2000; //timescale
+		var v = 100; //v-scale
+		$(this).animate({opacity: 1}, 300, 'linear');
+		$(this).delay(rand).animate({top: '-=100', marginLeft: '-=60'}, 1.5*x, 'linear', function() {
+			$(this).animate({top: '-=200', marginLeft: '+=120'}, 3*x, 'linear', function() {
+				$(this).animate({top: '-=200', marginLeft: '-=120'}, 3*x, 'linear', function() {
+					$(this).animate({top: '-=200', marginLeft: '+=120', opacity: 0}, 3*x, 'linear', function() {
+						$(this).css("top", 800);
+					});
+				});
+			});
+		});
+	});
+}
 
+sam();
+setInterval(function(){
+	sam()
+}, 23000);
 
 
 	$('.cycle').cycle({ 

@@ -1,15 +1,15 @@
 .nav { position: relative; max-width: 1800px; margin: 0 auto; background-color: #217ab0; height: 52px; line-height: 52px; color: #fff; font-size: 16px; }
 .nav:before { background: url(../img/nav_top.png) repeat-x; position: absolute; top: -3px; left: 0; content: ""; height: 3px; width: 100%; }
 .nav:after { background: url(../img/nav_bottom.png) repeat-x; position: absolute; bottom: -3px; left: 0; content: ""; height: 3px; width: 100%; }
-.nav a { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.25); color: inherit; display: inline-block; height: 100%; text-decoration: none; }
+.nav a { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.25); color: inherit; display: inline; display: inline-block; zoom: 1; height: 100%; text-decoration: none; }
 .nav a:hover { text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.85); }
-.nav li { display: inline-block; position: relative; padding: 0 8px; }
+.nav li { display: inline; display: inline-block; zoom: 1; position: relative; padding: 0 8px; }
 
 .nav_index { z-index: 2; }
 
 .nav-inner { width: 1024px; margin: 0 auto; }
 .nav-inner ul { list-style-type: none; }
-.nav-inner .nav-inner__item { position: relative; display: inline-block; line-height: 64px; padding: 0 10px; vertical-align: middle; color: #fff; font-size: 16px; }
+.nav-inner .nav-inner__item { position: relative; display: inline; display: inline-block; zoom: 1; line-height: 64px; padding: 0 10px; vertical-align: middle; color: #fff; font-size: 16px; }
 .nav-inner .nav-inner__item:after { content: ""; position: absolute; top: 20px; right: 0px; height: 27px; width: 1px; background: #86bde1; }
 .nav-inner .nav-inner__item:last-child:after { content: ""; display: none; }
 .nav-inner .nav-inner__item_act { font-weight: bold; }

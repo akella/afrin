@@ -31,7 +31,9 @@
 	a{
 		@include text-shadow(0 -1px 0 rgba(1,1,1,.25));
 		color: inherit;
+		display: inline;
 		display: inline-block;
+		zoom:1;
 		height: 100%;
 		text-decoration: none;
 		&:hover{
@@ -39,7 +41,9 @@
 		}
 	}
 	li{
+		display: inline;
 		display: inline-block;
+		zoom:1;
 		position: relative;
 		padding: 0 8px;
 	}
@@ -58,7 +62,9 @@
 	}
 	.nav-inner__item{
 		position: relative;
+		display: inline;
 		display: inline-block;
+		zoom:1;
 		line-height: 64px;
 		padding: 0 10px;
 		vertical-align: middle;

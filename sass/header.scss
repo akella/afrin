@@ -146,14 +146,14 @@
 // styles fot drops
 .drop{
 	position: absolute;
-	top: 80px;
+	top: 800px;
+	margin-top: 200px;
 	left: 23%;
 	margin-bottom: -76px;
 	@include animation(bubbles 20s linear infinite);
     z-index: 0;
 }
 .drop2{
-	top: 90px;
 	left: 14%;
 	@include animation(bubbles 20s linear infinite);
 	@include animation-delay(10s);
@@ -162,7 +162,7 @@
     }
 }
 .drop3{
-	top: -400px;
+// 	/top: -400px;
 	left: 33%;
     -webkit-animation-duration: 12s;
     animation-duration: 12s;
@@ -243,23 +243,23 @@
 }
 
 @include keyframes(bubbles) {
-   0% {
-      top: 850px;
-      margin-left: 0;
-   }
-   25%{
-   	margin-left: -40px;
-   }
-   50%{
-   	margin-left: 40px;
+//    0% {
+//       top: 850px;
+//       margin-left: 0;
+//    }
+//    25%{
+//    	margin-left: -40px;
+//    }
+//    50%{
+//    	margin-left: 40px;
    	
-   }
-   100% {
-      top:400px;
-      margin-left: 0;
-      opacity: 0;
+//    }
+//    100% {
+//       top:400px;
+//       margin-left: 0;
+//       opacity: 0;
       
-   }
+//    }
 }
 
 .header_alt1{

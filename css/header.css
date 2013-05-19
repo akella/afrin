@@ -33,12 +33,12 @@
 
 .highlight__heading { position: absolute; top: 19px; left: 410px; padding-left: 5px; font-family: 'HeliosLight', Arial, sans-serif; font-weight: bold; font-style: italic; color: #217ab0; font-size: 36px; margin-bottom: 0.25em; }
 
-.drop { position: absolute; top: 80px; left: 23%; margin-bottom: -76px; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; z-index: 0; }
+.drop { position: absolute; top: 800px; margin-top: 200px; left: 23%; margin-bottom: -76px; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; z-index: 0; }
 
-.drop2 { top: 90px; left: 14%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
+.drop2 { left: 14%; -webkit-animation: bubbles 20s linear infinite; -moz-animation: bubbles 20s linear infinite; -ms-animation: bubbles 20s linear infinite; -o-animation: bubbles 20s linear infinite; animation: bubbles 20s linear infinite; -webkit-animation-delay: 10s; -moz-animation-delay: 10s; -ms-animation-delay: 10s; -o-animation-delay: 10s; animation-delay: 10s; }
 @media only screen and (max-width: 1350px) { .drop2 { display: none; } }
 
-.drop3 { top: -400px; left: 33%; -webkit-animation-duration: 12s; animation-duration: 12s; }
+.drop3 { left: 33%; -webkit-animation-duration: 12s; animation-duration: 12s; }
 
 .drop4 { left: 5%; -webkit-animation: bubbles 10s linear infinite; -moz-animation: bubbles 10s linear infinite; -ms-animation: bubbles 10s linear infinite; -o-animation: bubbles 10s linear infinite; animation: bubbles 10s linear infinite; -webkit-animation-delay: 4s; -moz-animation-delay: 4s; -ms-animation-delay: 4s; -o-animation-delay: 4s; animation-delay: 4s; }
 @media only screen and (max-width: 1350px) { .drop4 { display: none; } }
@@ -70,31 +70,11 @@
 
 .drop15 { left: 88%; -webkit-animation: bubbles 15s linear infinite; -moz-animation: bubbles 15s linear infinite; -ms-animation: bubbles 15s linear infinite; -o-animation: bubbles 15s linear infinite; animation: bubbles 15s linear infinite; -webkit-animation-delay: 5s; -moz-animation-delay: 5s; -ms-animation-delay: 5s; -o-animation-delay: 5s; animation-delay: 5s; }
 
-@-moz-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
-  25% { margin-left: -40px; }
-  50% { margin-left: 40px; }
-  100% { top: 400px; margin-left: 0; opacity: 0; } }
-
-@-webkit-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
-  25% { margin-left: -40px; }
-  50% { margin-left: 40px; }
-  100% { top: 400px; margin-left: 0; opacity: 0; } }
-
-@-o-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
-  25% { margin-left: -40px; }
-  50% { margin-left: 40px; }
-  100% { top: 400px; margin-left: 0; opacity: 0; } }
-
-@-ms-keyframes bubbles { 0% { top: 850px; margin-left: 0; }
-  25% { margin-left: -40px; }
-  50% { margin-left: 40px; }
-  100% { top: 400px; margin-left: 0; opacity: 0; } }
-
-@keyframes bubbles { 0% { top: 850px; margin-left: 0; }
-  25% { margin-left: -40px; }
-  50% { margin-left: 40px; }
-  100% { top: 400px; margin-left: 0; opacity: 0; } }
-
+@-moz-keyframes bubbles {}
+@-webkit-keyframes bubbles {}
+@-o-keyframes bubbles {}
+@-ms-keyframes bubbles {}
+@keyframes bubbles {}
 .header_alt1 .logo-index { display: none; }
 .header_alt1 .header__logo a { left: 0; }
 .header_alt1 .highlight__heading { position: absolute; top: 150px; left: 0px; font-weight: normal; font-style: normal; font-size: 50px; }
